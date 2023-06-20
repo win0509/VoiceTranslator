@@ -12,10 +12,62 @@
       <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
+      <div class="wrapper">
+            <header>
+                  <div class="container">
+                        <h2>Voice Translator</h2>
+                  </div>
+            </header>
+            <section>
+                  <div class="container">
+                        <div class="select-lang">
+                              <div class="select-info">
+                                    <h3>번역할 언어를 선택해 주세요.</h3>
+                              </div>
+                              <div class="select-btns">
+                                    <button class="active" id="en-US">영어</button>
+                                    <button id="zh-CN">중국어</button>
+                                    <button id="ja-JP">일본어</button>
+                                    <button id="es-ES">스페인어</button>
+                              </div>
+                        </div>
+
+                        <div class="lang-from lang-box">
+                              <textarea placeholder="한국어 음성을 입력해 주세요."></textarea>
+                        </div>
+
+                        <div class="switch-btns-wrapper">
+                              <div class="switch-btns">
+                                    <span class="from" value="ko-KR">한국어</span>
+                                    <i class="ri-arrow-right-line"></i>
+                                    <span class="to" value="en-US">영어</span>
+                              </div>
+                        </div>
+
+                        <div class="lang-to lang-box">
+                              <textarea placeholder="영어로 번역 됩니다."></textarea>
+                        </div>
+
+                        <div class="result-btns-box">
+                              <div class="result-btns">
+                                    <button class="translate">번역</button>
+                                    <button>읽기</button>
+                              </div>
+
+                        <footer>
+                              <div class="footer-contents">
+                                    <p>언어를 바꿀 경우 초기화 해주세요</p>
+                                    <button>초기화</button>
+                              </div>
+                        </footer>
+                        </div>
+                  </div>
+            </section>
+      </div>
       
 
 
-      
+
        <!-- jQuery CDN Link -->
       <script src="https://code.jquery.com/jquery-3.6.4.min.js" integrity="sha256-oP6HI9z1XaZNBrJURtCoUT5SUnxFr8s3BzRl+cbzUq8=" crossorigin="anonymous"></script>
       <!-- Main Script Link -->
